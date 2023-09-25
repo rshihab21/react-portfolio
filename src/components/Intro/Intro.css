@@ -5,4 +5,20 @@
   align-items: center;
   margin: 0 auto;
   justify-content: space-between;
+  padding: 2rem 0rem;
+}
+
+.intro-content {
+  font-size: 35px;
+}
+.position {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 40px;
+}
+.intro-content p {
+  font-size: 20px;
+}
+.intro-img {
+  width: 33rem;
 }

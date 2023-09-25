@@ -7,16 +7,16 @@ const Intro = () => {
     <section id="intro">
       <div className="intro-content">
         <span>Hello,</span> <br />
-        <span>I'm Shihab</span>
+        <span style={{ color: "#FFBA01" }}>I'm Shihab</span>
         <br />
-        <span>Front-End Developer</span>
-        <br />
-        <span>
+        <span className="position">Front-End Developer</span>
+        <p>
           I'm passinote about creating experiences that are easy to
-          use,accessible, and that meet the user's need
-        </span>
+          use,accessible, and that meet the user's need.and that meet the user's
+          need.
+        </p>
       </div>
-      <img src={introImg} alt="" />
+      <img className="intro-img" src={introImg} alt="" />
     </section>
   );
 };
